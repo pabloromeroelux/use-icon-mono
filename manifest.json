@@ -1,0 +1,8 @@
+{
+  "name": "Use Icon Mono",
+  "id": "1166257108058435957",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"]
+}
