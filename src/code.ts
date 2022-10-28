@@ -106,7 +106,9 @@ figma.ui.onmessage = async (msg) => {
           .strokeStyleId;
 
         // swap the icon with an instance of the mono icon.
-        instance.swapComponent(mono.mainComponent);
+        if (instance.mainComponent.name !== "Mono=True") {
+          instance.swapComponent(mono.mainComponent);
+        }
         instance.resize(width, height);
 
         // grab the icon instance within the mono icon.
