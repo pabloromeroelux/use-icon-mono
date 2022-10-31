@@ -4,8 +4,8 @@
   "description": "Your Figma Plugin",
   "main": "code.js",
   "scripts": {
-    "build": "webpack",
-    "prod": "webpack --mode production"
+    "dev": "webpack",
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "",
