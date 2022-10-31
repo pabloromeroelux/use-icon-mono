@@ -109,7 +109,7 @@ function App() {
         ) : (
           <p>
             You must add and select an instance of{" "}
-            <a href={linkToMono}>Mono Icon</a> in the canvas
+            <a href={linkToMono}>Icon Mono</a> in the canvas
           </p>
         )}
         <button
